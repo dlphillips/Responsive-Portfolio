@@ -102,7 +102,7 @@ h2 {
 }
 
 #leftmain {
-	float: left;
+/*	float: left;
 	width: 650px;
 	background-color:#fff;
 	font-size: 18px;
@@ -110,6 +110,16 @@ h2 {
 	padding-left: 20px;
 	padding-top: 20px;
 	line-height: 1.5;
+
+	padding: 30px;*/
+  padding: 30px;
+  margin: 0 0 40px 0;
+  width: 100%;
+  max-width: 650px;
+  float: left;
+  background: #fff;
+  border: 1px solid #ddd;
+  line-height: 1.5;
 }
 
 #rightmain {
@@ -120,35 +130,33 @@ h2 {
 	padding: 10px;
 }
 
-table { 
-	border-spacing: 10px;
-	border-collapse: separate;
+.img-wrapper {
+    position: relative;
+    width: 274px;
+	overflow: auto;
+    float: left;
+    margin: 20px 0 25px;
 }
 
-td { 
-	margin: 10px;
-	width: 260px;
-	height: 200px;
-	vertical-align:bottom;
-	text-align:center;
-	padding-bottom: 15px;
+.img-wrapper:nth-child(odd) {
+	margin-right: 40px;
 }
 
-.img {
-	z-index: -1;
+.img-wrapper img {
+  width: 100%;
+  border: 0 none;
 }
 
-
-.tbl_img {
-	background-size: contain;
-	background-repeat: no-repeat;
-}
-
-.overtext {
-	background-color: #4aaaa5;
+.img-wrapper p {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-bottom: 15px;
+    width: 100%;
+    background-color: #4aaaa5;
 	color: white;
 	text-align: center;	
-	line-height: 50px;
+	line-height: 30px;
 	opacity: 0.9;
 }
 
@@ -319,7 +327,7 @@ input[type=button], input[type=submit], input[type=reset] {
 		position: static;
 	}
 
-	td {display: inline-block;}
+/*	td {display: inline-block;}*/
 
 	.overtext {
 		background-color: #4aaaa5;
