@@ -123,6 +123,7 @@ h2 {
 	overflow: auto;
 	float: left;
 	margin: 20px 0 25px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 .img-wrapper:nth-child(odd) {
