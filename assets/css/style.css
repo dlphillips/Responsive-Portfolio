@@ -246,67 +246,71 @@ input[type=button], input[type=submit], input[type=reset] {
 		width: 100%;
 	}
 
-	@media (max-width: 768px) {
+@media (max-width: 768px) {
 
-		#midwrap {
-			clear: both;
-			background-color: #ffffff;
-			border-color: #dddddd;
-			border-width: 2px;
-		}
-
-		#leftmain {
-			width: 650px;
-		}
-
-		#rightmain {
-			float: left;
-			margin-top: 15px;
-			width: 100%;
-		}
-
-		#top-wrap {
-			clear: both;
-			width: auto;
-		}
-
-		.img-wrapper {
-			position: relative;
-			width: 274px;
-			overflow: auto;
-			margin: 20px 0 25px;
-		}
-
+	#midwrap {
+		clear: both;
+		background-color: #ffffff;
+		border-color: #dddddd;
+		border-width: 2px;
 	}
 
-	@media (max-width: 640px) {
-
-		footer {
-			width: 100%;
-			margin: 15px;
-		}
-
-		nav {
-			float: left;
-			text-align: center;
-			background-color: #ffffff;
-			line-height: 50px;
-			margin-bottom: 15px;
-			width: 100%;
-		}
-
-		#headname {
-			width: 100%;
-			text-align: center;
-			position: static;
-		}
-
-		.img-wrapper {
-			position: relative;
-			width: 100%;
-		}
-
-		#leftmain {
-			width: 100%;
-		}
+	#leftmain {
+		width: 650px;
 	}
+
+	#rightmain {
+		float: left;
+		margin-top: 15px;
+		width: 100%;
+	}
+
+	#top-wrap {
+		clear: both;
+		width: auto;
+	}
+
+	.img-wrapper {
+		position: relative;
+		width: 274px;
+		overflow: auto;
+		margin: 20px 0 25px;
+	}
+
+}
+
+@media (max-width: 640px) {
+
+	footer {
+		width: 100%;
+		margin: 15px;
+	}
+
+	nav {
+		float: left;
+		text-align: center;
+		background-color: #ffffff;
+		line-height: 50px;
+		margin-bottom: 15px;
+		width: 100%;
+	}
+
+	nav a {
+		width: 30%;
+	}
+
+	#headname {
+		width: 100%;
+		text-align: center;
+		position: static;
+	}
+
+	.img-wrapper {
+		position: relative;
+		width: 100%;
+	}
+
+	#leftmain {
+		width: 100%;
+	}
+}
